@@ -1,14 +1,14 @@
 .background {
-    height: 1000px;
+    height: 100vh;
     background-image: url('../images/landing.webp');
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #464646;
+    background-color: #000000;
 }
 
 .centertext {
-    height: 90%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
