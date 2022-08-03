@@ -1,8 +1,10 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  font-family: 'Polt-Light'; */
+  font-family: 'Elaine-Sans-ExtraBold';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +12,24 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'Polt-Light';
+  src:url('Polt-Light.ttf.woff') format('woff'),
+      url('Polt-Light.ttf.svg#Polt-Light') format('svg'),
+      url('Polt-Light.ttf.eot'),
+      url('Polt-Light.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Elaine-Sans-ExtraBold';
+  src:url('Elaine-Sans-ExtraBold.ttf.woff') format('woff'),
+      url('Elaine-Sans-ExtraBold.ttf.svg#Elaine-Sans-ExtraBold') format('svg'),
+      url('Elaine-Sans-ExtraBold.ttf.eot'),
+      url('Elaine-Sans-ExtraBold.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
 }
