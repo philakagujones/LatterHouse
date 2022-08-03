@@ -1,0 +1,33 @@
+.navbar {
+    width: 100%;
+    background: transparent;
+    display: flex;
+}
+
+.navbar>li {
+    padding: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+    list-style-type: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.navbar>li:hover {
+    color: rgb(158, 145, 145);
+    cursor: pointer;
+}
+
+
+/* @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; 
+    }
+} */
