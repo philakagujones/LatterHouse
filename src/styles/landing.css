@@ -13,12 +13,25 @@
 }
 
 .centertext {
-    height: 95%;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
+}
+
+/* .latter {
+    color: rgb(255, 255, 255);
+} */
+span{
+    transition: letter-spacing 1s ease-in-out;
+    -webkit-transition: letter-spacing 1s ease-in-out;
+}
+span:hover {
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    
 }
 
 h1 {
@@ -27,7 +40,7 @@ h1 {
     -webkit-text-stroke: 1px;
 }
 h4 {
-    margin-top: -2rem;
+    margin-top: -3rem;
     font-size: 30px;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px;

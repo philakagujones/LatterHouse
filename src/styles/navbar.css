@@ -18,7 +18,7 @@
 }
 
 .navbar>li:hover {
-    color: rgb(158, 145, 145);
+    color: rgba(255, 255, 255, 0.389);
     cursor: pointer;
 }
 
