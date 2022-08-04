@@ -10,10 +10,10 @@ function Landing() {
         <Navbar />
         <div className="centertext">
           <span>
-            {/* <Link to="/"> */}
+            <Link style={{textDecoration: 'none', color: 'white'}} to="/">
               <h1 className='latter'>LATTER HOUSE</h1>
               <h4 className='latter'>VANCOUVER</h4>
-            {/* </Link> */}
+            </Link>
           </span>
         </div>
       </div>

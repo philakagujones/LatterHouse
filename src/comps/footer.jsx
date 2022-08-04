@@ -2,16 +2,25 @@ import React from 'react'
 import '../styles/footer.css'
 
 import { UilInstagram, UilTwitter, UilFacebookF } from '@iconscout/react-unicons'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
     <div className="footer">
       <div className="words">
           <ul>
-            <li>SIZE GUIDE</li>
-            <li>PRIVACY</li>
-            <li>TERMS</li>
-            <li>FAQ</li>
+            <li>
+              <Link className="link" to="/size">SIZE GUIDE</Link>
+            </li>
+            <li>
+              <Link className="link" to="/privacy">PRIVACY</Link>
+            </li>
+            <li>
+              <Link className="link" to="/terms">TERMS</Link>
+            </li>
+            <li>
+              <Link className="link" to="/faq">FAQ</Link>
+            </li>
           </ul>
       </div>
       <div className="icons">

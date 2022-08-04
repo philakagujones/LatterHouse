@@ -21,12 +21,9 @@
     color: white;
 }
 
-/* .latter {
-    color: rgb(255, 255, 255);
-} */
-span{
-    transition: letter-spacing 1s ease-in-out;
-    -webkit-transition: letter-spacing 1s ease-in-out;
+span {
+    transition: letter-spacing 0.7s ease-in-out;
+    -webkit-transition: letter-spacing 0.7s ease-in-out;
 }
 span:hover {
     letter-spacing: 0.2em;

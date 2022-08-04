@@ -17,7 +17,17 @@
     border-bottom: 1px solid rgb(255, 255, 255);
 }
 
-.navbar>li:hover {
+/* .navbar>li:hover {
+    color: rgba(255, 255, 255, 0.389);
+    cursor: pointer;
+} */
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
     color: rgba(255, 255, 255, 0.389);
     cursor: pointer;
 }
