@@ -19,6 +19,8 @@
     align-items: center;
     text-align: center;
     color: white;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 span {
@@ -42,15 +44,12 @@ h4 {
     -webkit-text-stroke: 1px;
 }
 
-@media screen and (max-width: 700) {
-    .centertext {
-        color: red;
-    }
+@media screen and (max-width: 700px) {
     h1 {
         font-size: 40px;
     }
     h4 {
-        margin-top: -3rem;
+        margin-top: -2rem;
         font-size: 20px;
     }
 }

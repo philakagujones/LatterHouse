@@ -10,7 +10,7 @@ function Footer() {
       <div className="words">
           <ul>
             <li>
-              <Link className="link" to="/size">SIZE GUIDE</Link>
+              <Link className="link" to="/size">SIZES</Link>
             </li>
             <li>
               <Link className="link" to="/privacy">PRIVACY</Link>
