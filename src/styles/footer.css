@@ -101,4 +101,10 @@
     .words {
         font-size: 10px;
     }
+    ul {
+        margin-left: -22px;
+    }
+    .icons {
+        padding-right: 20px;
+    }
 }
