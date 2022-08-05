@@ -28,7 +28,6 @@ span {
 span:hover {
     letter-spacing: 0.2em;
     cursor: pointer;
-    
 }
 
 h1 {
@@ -41,4 +40,17 @@ h4 {
     font-size: 30px;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px;
+}
+
+@media screen and (max-width: 700) {
+    .centertext {
+        color: red;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h4 {
+        margin-top: -3rem;
+        font-size: 20px;
+    }
 }
