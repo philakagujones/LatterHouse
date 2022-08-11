@@ -1,21 +1,14 @@
 import React from 'react'
 import '../styles/landing.css'
 import Navbar from './navbar'
-import { Link } from "react-router-dom";
+import Latter from './latter';
 
 function Landing() {
   return (
     <div className='background'>
       <div className="container">
         <Navbar />
-        <div className="centertext">
-          <span>
-            <Link style={{textDecoration: 'none', color: 'white'}} to="/">
-              <h1 className='latter'>LATTER HOUSE</h1>
-              <h4 className='latter'>VANCOUVER</h4>
-            </Link>
-          </span>
-        </div>
+        <Latter />
       </div>
     </div>
   )

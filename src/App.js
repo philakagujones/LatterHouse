@@ -15,7 +15,7 @@ function App() {
   return <Routes>
     <Route path='/' element={<Home />} />
     <Route path='/shop' element={<Shop />} />
-    <Route path='/lookbok' element={<Lookbook />} />
+    <Route path='/lookbook' element={<Lookbook />} />
     <Route path='/about' element={<About />} />
     <Route path='/privacy' element={<Privacy />} />
     <Route path='/terms' element={<Terms />} />
