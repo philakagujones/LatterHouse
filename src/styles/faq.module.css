@@ -1,0 +1,20 @@
+.container {
+    padding: 0 2rem;
+}
+
+.faqs {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    font-size: 12px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+div>ul {
+    list-style-type: none;
+}
