@@ -33,8 +33,8 @@
 }
 
 
-/* @media screen and (max-width: 500px) {
-    .navbar a {
+/* @media screen and (max-width: 700px) {
+    .navbar>li {
       float: none;
       display: block;
       width: 100%;
