@@ -7,8 +7,8 @@ function Latter() {
     <div className="centertext">
           <span>
             <Link style={{textDecoration: 'none', color: 'white'}} to="/">
-              <h1 className='latter'>LATTER HOUSE</h1>
-              <h4 className='latter'>VANCOUVER</h4>
+              <h1>LATTER HOUSE</h1>
+              <h4>VANCOUVER</h4>
             </Link>
           </span>
         </div>

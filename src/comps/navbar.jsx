@@ -4,22 +4,24 @@ import '../styles/navbar.css'
 
 function Navbar() {
   return (
-    <div className="navbar">
-        <li>
-          <Link className="link" to="/shop">SHOP</Link>
-        </li>
-      
-        <li>
+    <div className="navbar" id='navbar'>
+        <div className="navleft">
+          <Link className="link" to="/shop">STORE</Link>
           <Link className='link' to="/lookbook">LOOKBOOK</Link>
-        </li>
-      
-        <li>
+        </div>
+        
+        <div className="navmid">
+          <Link style={{textDecoration: 'none', color: 'white'}} to="/">
+            <h3 className='latter'>LATTER HOUSE</h3>
+            <h3 className='lattermobile'>LH</h3>
+          </Link>
+        </div>
+        
+        
+        <div className="navright">
           <Link className='link' to="/about">ABOUT</Link>
-        </li>
-      
-        <li>
-          <Link className='link' to="/">CART</Link>
-        </li>
+          <Link className='link' to="/">CART (0)</Link>
+        </div>
     </div>
   )
 }
