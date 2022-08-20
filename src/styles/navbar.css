@@ -12,11 +12,9 @@
     display: flex;
     gap: 2rem;
 }
-
 .navmid {
     justify-content: center;
 }
-
 .navright {
     display: flex;;
     gap: 2rem;
@@ -26,7 +24,6 @@
     color: white;
     text-decoration: none;
 }
-
 .link:hover {
     color: rgba(255, 255, 255, 0.389);
     cursor: pointer;
@@ -67,11 +64,9 @@
     .navleft {
         gap: 1rem;
     }
-    
     .navmid {
         justify-content: center;
     }
-    
     .navright {
         gap: 1rem;
     }
